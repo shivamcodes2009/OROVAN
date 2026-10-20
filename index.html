@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OROVAN is a founder-led fragrance house creating considered, expressive scents made to be remembered. Discover the debut collection, coming soon.">
+  <meta name="theme-color" content="#101010">
+  <title>OROVAN | Leave a Lasting Impression</title>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23101010'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='36' fill='%23B89A5A' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#home">
+        <span class="brand-name">OROVAN</span>
+        <span class="brand-sub">Fine Fragrance</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        data-nav-toggle
+      >
+        <span class="nav-toggle-box" aria-hidden="true">
+          <span></span>
+          <span></span>
+        </span>
+        <span class="sr-only">Open menu</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- SLIDER IMAGES: place home.img1.jpg to home.img5.jpg inside the images/ folder. -->
+    <section class="hero-slider" id="home" aria-label="OROVAN fragrance imagery">
+      <div class="slider" data-slider role="region" aria-roledescription="carousel" aria-label="Featured OROVAN imagery" tabindex="0">
+        <figure class="slide is-active" data-slide>
+          <img src="home1.png" alt="A sculptural OROVAN perfume bottle in warm, low light" width="1600" height="900" fetchpriority="high" decoding="async">
+          <div class="slide-fallback" hidden aria-hidden="true">
+            <span>OROVAN</span>
+            <small>Image coming soon</small>
+          </div>
+          <figcaption class="slide-caption">
+            <span class="slide-index">01 / 05</span>
+            <span class="slide-line" aria-hidden="true"></span>
+            <span class="slide-title">The OROVAN essence</span>
+          </figcaption>
+        </figure>
+
+        <figure class="slide" data-slide aria-hidden="true">
+          <img src="home2.png" alt="Amber glass and soft shadows in an OROVAN still life" width="1600" height="900" loading="lazy" decoding="async">
+          <div class="slide-fallback" hidden aria-hidden="true">
+            <span>OROVAN</span>
+            <small>Image coming soon</small>
+          </div>
+          <figcaption class="slide-caption">
+            <span class="slide-index">02 / 05</span>
+            <span class="slide-line" aria-hidden="true"></span>
+            <span class="slide-title">Quiet confidence</span>
+          </figcaption>
+        </figure>
+
+        <figure class="slide" data-slide aria-hidden="true">
+          <img src="home3.png" alt="An OROVAN fragrance bottle beside folded ivory silk" width="1600" height="900" loading="lazy" decoding="async">
+          <div class="slide-fallback" hidden aria-hidden="true">
+            <span>OROVAN</span>
+            <small>Image coming soon</small>
+          </div>
+          <figcaption class="slide-caption">
+            <span class="slide-index">03 / 05</span>
+            <span class="slide-line" aria-hidden="true"></span>
+            <span class="slide-title">A study in elegance</span>
+          </figcaption>
+        </figure>
+
+        <figure class="slide" data-slide aria-hidden="true">
+          <img src="home4.png" alt="Golden light falling across an OROVAN perfume bottle" width="1600" height="900" loading="lazy" decoding="async">
+          <div class="slide-fallback" hidden aria-hidden="true">
+            <span>OROVAN</span>
+            <small>Image coming soon</small>
+          </div>
+          <figcaption class="slide-caption">
+            <span class="slide-index">04 / 05</span>
+            <span class="slide-line" aria-hidden="true"></span>
+            <span class="slide-title">Golden hour</span>
+          </figcaption>
+        </figure>
+
+        <figure class="slide" data-slide aria-hidden="true">
+          <img src="home5.png" alt="A minimalist OROVAN fragrance composition in ivory and gold" width="1600" height="900" loading="lazy" decoding="async">
+          <div class="slide-fallback" hidden aria-hidden="true">
+            <span>OROVAN</span>
+            <small>Image coming soon</small>
+          </div>
+          <figcaption class="slide-caption">
+            <span class="slide-index">05 / 05</span>
+            <span class="slide-line" aria-hidden="true"></span>
+            <span class="slide-title">Leave a lasting impression</span>
+          </figcaption>
+        </figure>
+
+        <button class="slider-arrow slider-arrow--prev" type="button" data-slider-prev aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button class="slider-arrow slider-arrow--next" type="button" data-slider-next aria-label="Next slide">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="m9 4 8 8-8 8" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="slider-status">
+          <div class="slider-dots" data-slider-dots aria-label="Choose a slide">
+            <button class="slider-dot is-active" type="button" data-slide-to="0" aria-label="Go to slide 1" aria-current="true"></button>
+            <button class="slider-dot" type="button" data-slide-to="1" aria-label="Go to slide 2"></button>
+            <button class="slider-dot" type="button" data-slide-to="2" aria-label="Go to slide 3"></button>
+            <button class="slider-dot" type="button" data-slide-to="3" aria-label="Go to slide 4"></button>
+            <button class="slider-dot" type="button" data-slide-to="4" aria-label="Go to slide 5"></button>
+          </div>
+          <button class="slider-autoplay" type="button" data-slider-autoplay data-playing="true" aria-label="Pause slideshow">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path class="icon-pause" d="M9 5v14M15 5v14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path class="icon-play" d="M9 5.5 18 12l-9 6.5Z" fill="currentColor"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-inner container">
+        <p class="eyebrow eyebrow--center">The Debut Collection &mdash; Coming Soon , FOUNDER-SHIVAM CHOUDHARY</p>
+        <h1 id="hero-title">Leave a lasting <em>impression.</em></h1>
+        <p class="hero-lede">
+          Considered fragrances for the moments that stay with you. Composed with restraint,
+          worn with confidence, and made to be remembered.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn--gold" href="#collection">Explore Collection</a>
+          <a class="link-arrow" href="#story">
+            Our Philosophy
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+        <p class="hero-note">A founder-led fragrance house by Shivam Choudhary</p>
+      </div>
+    </section>
+
+    <!-- PRODUCT IMAGES: place bella.jpg, titan.jpg, nova.jpg, crimson.jpg and imperial.jpg inside images/. -->
+    <!-- PRODUCT CONTENT: edit the names, categories, descriptions and data-whatsapp-product values below. -->
+    <section class="collection section" id="collection" aria-labelledby="collection-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">The Collection</p>
+            <h2 class="section-title" id="collection-title">Five distinct signatures.</h2>
+          </div>
+          <p class="section-intro">
+            The debut OROVAN collection is in development. Each fragrance is a study in character
+            &mdash; explore the concepts below and enquire for launch updates.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-media">
+              <img src="bella.png" alt="OROVAN Bella fragrance concept" width="800" height="1000" loading="lazy" decoding="async">
+              <div class="product-fallback" hidden aria-hidden="true">
+                <span>OROVAN</span>
+                <small>Image coming soon</small>
+              </div>
+              <span class="coming-soon">Coming Soon</span>
+            </div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="product-category">For Women</span>
+                <span class="product-number">No. 01</span>
+              </div>
+              <h3>OROVAN Bella</h3>
+              <p>A graceful, timeless fragrance concept inspired by beauty and elegance.</p>
+              <a
+                class="product-link"
+                href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20enquire%20about%20OROVAN%20Bella."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp-product="OROVAN Bella"
+                data-whatsapp-category="For Women"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.5L3.5 20l1-4.4a8.4 8.4 0 1 1 16-4Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                  <path d="M9 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.3 0 .6.5.8 1.3 1.6 2.2 2.1.3.2.4.1.6-.1l.6-.7c.2-.2.4-.3.6-.2l1.6.7c.3.2.4.3.4.6v.6c0 .5-.4 1-.9 1.2-.5.2-1.2.3-3-.5-1.8-.8-3.3-2.4-4-3.8-.6-1.3-.4-2.3-.2-2.7Z" fill="currentColor"/>
+                </svg>
+                Enquire on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media">
+              <img src="titan.png" alt="OROVAN Titan fragrance concept" width="800" height="1000" loading="lazy" decoding="async">
+              <div class="product-fallback" hidden aria-hidden="true">
+                <span>OROVAN</span>
+                <small>Image coming soon</small>
+              </div>
+              <span class="coming-soon">Coming Soon</span>
+            </div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="product-category">For Men</span>
+                <span class="product-number">No. 02</span>
+              </div>
+              <h3>OROVAN Titan</h3>
+              <p>A powerful, confident fragrance concept.</p>
+              <a
+                class="product-link"
+                href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20enquire%20about%20OROVAN%20Titan."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp-product="OROVAN Titan"
+                data-whatsapp-category="For Men"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.5L3.5 20l1-4.4a8.4 8.4 0 1 1 16-4Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                  <path d="M9 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.3 0 .6.5.8 1.3 1.6 2.2 2.1.3.2.4.1.6-.1l.6-.7c.2-.2.4-.3.6-.2l1.6.7c.3.2.4.3.4.6v.6c0 .5-.4 1-.9 1.2-.5.2-1.2.3-3-.5-1.8-.8-3.3-2.4-4-3.8-.6-1.3-.4-2.3-.2-2.7Z" fill="currentColor"/>
+                </svg>
+                Enquire on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media">
+              <img src="refrech.png" alt="OROVAN Nova fragrance concept" width="800" height="1000" loading="lazy" decoding="async">
+              <div class="product-fallback" hidden aria-hidden="true">
+                <span>OROVAN</span>
+                <small>Image coming soon</small>
+              </div>
+              <span class="coming-soon">Coming Soon</span>
+            </div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="product-category">Unisex</span>
+                <span class="product-number">No. 03</span>
+              </div>
+              <h3>OROVAN Nova</h3>
+              <p>A fresh, modern fragrance concept inspired by energy and individuality.</p>
+              <a
+                class="product-link"
+                href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20enquire%20about%20OROVAN%20Nova."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp-product="OROVAN Nova"
+                data-whatsapp-category="Unisex"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.5L3.5 20l1-4.4a8.4 8.4 0 1 1 16-4Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                  <path d="M9 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.3 0 .6.5.8 1.3 1.6 2.2 2.1.3.2.4.1.6-.1l.6-.7c.2-.2.4-.3.6-.2l1.6.7c.3.2.4.3.4.6v.6c0 .5-.4 1-.9 1.2-.5.2-1.2.3-3-.5-1.8-.8-3.3-2.4-4-3.8-.6-1.3-.4-2.3-.2-2.7Z" fill="currentColor"/>
+                </svg>
+                Enquire on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media">
+              <img src="crimson.png" alt="OROVAN Crimson fragrance concept" width="800" height="1000" loading="lazy" decoding="async">
+              <div class="product-fallback" hidden aria-hidden="true">
+                <span>OROVAN</span>
+                <small>Image coming soon</small>
+              </div>
+              <span class="coming-soon">Coming Soon</span>
+            </div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="product-category">For Men &mdash; Date Night</span>
+                <span class="product-number">No. 04</span>
+              </div>
+              <h3>OROVAN Crimson</h3>
+              <p>A deep, bold, magnetic fragrance concept for evening occasions.</p>
+              <a
+                class="product-link"
+                href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20enquire%20about%20OROVAN%20Crimson."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp-product="OROVAN Crimson"
+                data-whatsapp-category="For Men — Date Night"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.5L3.5 20l1-4.4a8.4 8.4 0 1 1 16-4Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                  <path d="M9 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.3 0 .6.5.8 1.3 1.6 2.2 2.1.3.2.4.1.6-.1l.6-.7c.2-.2.4-.3.6-.2l1.6.7c.3.2.4.3.4.6v.6c0 .5-.4 1-.9 1.2-.5.2-1.2.3-3-.5-1.8-.8-3.3-2.4-4-3.8-.6-1.3-.4-2.3-.2-2.7Z" fill="currentColor"/>
+                </svg>
+                Enquire on WhatsApp
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media">
+              <img src="luxry.png" alt="OROVAN Imperial fragrance concept" width="800" height="1000" loading="lazy" decoding="async">
+              <div class="product-fallback" hidden aria-hidden="true">
+                <span>OROVAN</span>
+                <small>Image coming soon</small>
+              </div>
+              <span class="coming-soon">Coming Soon</span>
+            </div>
+            <div class="product-body">
+              <div class="product-meta">
+                <span class="product-category">Prestige Collection</span>
+                <span class="product-number">No. 05</span>
+              </div>
+              <h3>OROVAN Imperial</h3>
+              <p>A royal, sophisticated concept expressing refinement and exclusivity.</p>
+              <a
+                class="product-link"
+                href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20enquire%20about%20OROVAN%20Imperial."
+                target="_blank"
+                rel="noopener noreferrer"
+                data-whatsapp-product="OROVAN Imperial"
+                data-whatsapp-category="Prestige Collection"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path d="M20.5 11.6a8.4 8.4 0 0 1-12.4 7.5L3.5 20l1-4.4a8.4 8.4 0 1 1 16-4Z" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+                  <path d="M9 8.2c.2-.4.4-.4.7-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.3 0 .6.5.8 1.3 1.6 2.2 2.1.3.2.4.1.6-.1l.6-.7c.2-.2.4-.3.6-.2l1.6.7c.3.2.4.3.4.6v.6c0 .5-.4 1-.9 1.2-.5.2-1.2.3-3-.5-1.8-.8-3.3-2.4-4-3.8-.6-1.3-.4-2.3-.2-2.7Z" fill="currentColor"/>
+                </svg>
+                Enquire on WhatsApp
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="collection-note">
+          All five fragrances are marked <strong>Coming Soon</strong>. Orders are not currently
+          being accepted. Message us on WhatsApp for launch updates and enquiries.
+        </p>
+      </div>
+    </section>
+
+    <section class="philosophy section" id="story" aria-labelledby="story-title">
+      <div class="container philosophy-grid">
+        <div class="story-heading">
+          <p class="eyebrow">Our Story</p>
+          <h2 class="section-title" id="story-title">The OROVAN Philosophy</h2>
+          <p class="story-signature">Leave a lasting impression.</p>
+        </div>
+
+        <div class="philosophy-copy">
+          <p class="philosophy-lede">
+            Fragrance is one of the most personal forms of self-expression. It does not ask to be
+            seen; it is remembered.
+          </p>
+          <p>
+            A scent can recall a place, a person, a version of yourself you had almost forgotten.
+            OROVAN is built around that belief. Each fragrance begins as a study in character
+            &mdash; composed to feel considered, intimate, and distinctive rather than loud.
+          </p>
+          <p>
+            We are taking our time with the collection. The fragrances are still in development,
+            and we would rather reveal them slowly, with care, than rush a signature that is meant
+            to last.
+          </p>
+          <blockquote class="philosophy-quote">
+            The finest impression is rarely the loudest one.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="founder" aria-labelledby="founder-title">
+      <div class="founder-inner container">
+        <div class="founder-mark" aria-hidden="true">SVM</div>
+        <p class="eyebrow eyebrow--center">The Founder</p>
+        <h2 id="founder-title">Shivam Choudhary</h2>
+        <p class="founder-role">Founder of OROVAN</p>
+        <p class="founder-copy">
+          OROVAN is a founder-led fragrance house built on a simple conviction: a scent should feel
+          like an extension of the person wearing it. Shivam Choudhary founded OROVAN to create
+          fragrances that are elegant, expressive, and made to be remembered &mdash; with the same
+          care and restraint reflected in every part of the house.
+        </p>
+        <a class="btn btn--outline-light" href="#contact">Contact OROVAN</a>
+      </div>
+    </section>
+
+    <!-- WHATSAPP: the number is set once in script.js (WHATSAPP_NUMBER). The links here are no-JS fallbacks. -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title" id="contact-title">Begin a conversation.</h2>
+          <p class="contact-copy">
+            For launch updates and enquiries about OROVAN, message us on WhatsApp.
+          </p>
+        </div>
+
+        <div class="contact-panel">
+          <p class="contact-label">WhatsApp enquiries</p>
+          <a class="contact-phone" href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20know%20more%20about%20the%20collection." target="_blank" rel="noopener noreferrer">
+            +91 9########4
+          </a>
+          <a class="btn btn--dark" href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20know%20more%20about%20the%20collection." target="_blank" rel="noopener noreferrer">
+            Message OROVAN
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M4 12h15M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <p class="contact-note">All fragrances are currently coming soon. No orders are being accepted.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand brand--footer" href="#home">
+            <span class="brand-name">OROVAN</span>
+            <span class="brand-sub">Fine Fragrance</span>
+          </a>
+          <p class="footer-tagline">Leave a lasting impression.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <p class="footer-heading">Explore</p>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-contact">
+          <p class="footer-heading">Enquiries</p>
+          <a href="https://wa.me/919430932904?text=Hello%20OROVAN%2C%20I%20would%20like%20to%20know%20more%20about%20the%20collection." target="_blank" rel="noopener noreferrer">
+            WhatsApp +91 9########4
+          </a>
+          <a class="footer-demo-link" href="checkout.html">Demo checkout</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span data-year>2026</span> OROVAN. All rights reserved.</p>
+        <p>Founded by Shivam Choudhary</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
